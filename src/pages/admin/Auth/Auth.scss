@@ -1,0 +1,42 @@
+@import "~/src/scss/index.scss";
+
+.auth {
+  //background-image: url("../../../assets/jpg/auth-bg.jpg");
+  background-color: #2E3549;
+  min-height: 100vh;
+  background-position: center;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 1px;
+  margin: 0px;
+
+  .logo {
+    width: 200px;
+    margin-top: 120px;
+    margin-bottom: 0px;
+  }
+
+  .auth_forms {
+    border-bottom: 120px;
+    width: 450px;
+    .ui.menu {
+
+      .item {
+        width: 50%;
+        justify-content: center;
+        background-color: #fff !important;
+        border-radius: 0 !important;
+        border-top: 4px solid $border-grey !important;
+        font-size: 18px;
+
+        &.active {
+          font-weight: normal;
+          border-radius: 0 !important;
+          border-top-color: $primary !important;
+        }
+      }
+    }
+  }
+}
